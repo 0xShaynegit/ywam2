@@ -211,9 +211,10 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.8rem); max-width: 18ch; }
   gap: 2.5rem;
   padding: 0 clamp(1.25rem, 4vw, 3rem);
   color: var(--ink);
-  transition: background-color 0.45s ease, color 1.2s ease, box-shadow 0.45s ease;
+  transition: background-color 0.45s ease, color 1.2s ease, box-shadow 0.45s ease, height 0.35s ease;
 }
 .nav.scrolled {
+  height: calc(var(--nav-h) * 0.74);
   background: color-mix(in srgb, var(--bg) 82%, transparent);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
@@ -240,8 +241,13 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.8rem); max-width: 18ch; }
 .nav-logo-mark {
   width: 1.4rem; height: 1.4rem; flex: none;
   background: var(--accent-ink);
+  transition: width 0.35s ease, height 0.35s ease;
   -webkit-mask: url("../images/ywamchiangmai-ywam-chiangmai-logo-mark-dark.svg") center / contain no-repeat;
   mask: url("../images/ywamchiangmai-ywam-chiangmai-logo-mark-dark.svg") center / contain no-repeat;
+}
+.nav.scrolled .nav-logo-mark {
+  width: 1.15rem;
+  height: 1.15rem;
 }
 
 .nav-links { display: flex; gap: 2rem; }
