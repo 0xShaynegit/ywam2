@@ -52,6 +52,7 @@ body[data-phase="night"] {
   --accent:    var(--gold);
   --accent-ink: var(--gold);
   --line:      rgba(244, 239, 228, 0.14);
+  cursor: url("images/ywamchiangmai-ywam-chiangmai-cursor-white.svg") 4 4, auto;
 }
 body[data-phase="dusk"] {
   --bg:        #1c1526;
@@ -61,6 +62,7 @@ body[data-phase="dusk"] {
   --accent:    var(--gold);
   --accent-ink: var(--gold);
   --line:      rgba(244, 239, 228, 0.14);
+  cursor: url("images/ywamchiangmai-ywam-chiangmai-cursor-white.svg") 4 4, auto;
 }
 body[data-phase="dawn"] {
   --bg:        #c96f4a;
@@ -70,6 +72,7 @@ body[data-phase="dawn"] {
   --accent:    #fff3e4;
   --accent-ink: #3f1206;
   --line:      rgba(43, 20, 16, 0.22);
+  cursor: url("images/ywamchiangmai-ywam-chiangmai-cursor-dark.svg") 4 4, auto;
 }
 body[data-phase="day"] {
   --bg:        #faf5ec;
@@ -79,6 +82,7 @@ body[data-phase="day"] {
   --accent:    var(--gold);
   --accent-ink: var(--gold-deep);
   --line:      rgba(36, 31, 22, 0.14);
+  cursor: url("images/ywamchiangmai-ywam-chiangmai-cursor-dark.svg") 4 4, auto;
 }
 
 /* ---------- Base ---------- */
@@ -234,10 +238,10 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.8rem); max-width: 18ch; }
   transition: color 1.2s ease;
 }
 .nav-logo-mark {
-  width: 10px; height: 10px;
-  border-radius: 50%;
-  background: var(--gold);
-  box-shadow: 0 0 12px 2px rgba(232, 161, 60, 0.7);
+  width: 1.4rem; height: 1.4rem; flex: none;
+  background: var(--accent-ink);
+  -webkit-mask: url("images/ywamchiangmai-ywam-chiangmai-safari-pinned-tab.svg") center / contain no-repeat;
+  mask: url("images/ywamchiangmai-ywam-chiangmai-safari-pinned-tab.svg") center / contain no-repeat;
 }
 
 .nav-links { display: flex; gap: 2rem; }
@@ -786,6 +790,7 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.8rem); max-width: 18ch; }
   padding: 4rem clamp(1.25rem, 5vw, 4rem) 2.5rem;
   border-top: 1px solid var(--line);
   transition: border-color 1.2s ease;
+  cursor: url("images/ywamchiangmai-ywam-chiangmai-cursor-white.svg") 4 4, auto;
 }
 .footer-grid {
   display: grid;
@@ -797,6 +802,9 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.8rem); max-width: 18ch; }
   font-family: var(--font-display);
   font-size: 1.3rem;
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
 }
 .footer-logo em { font-style: normal; color: var(--accent-ink); transition: color 1.2s ease; }
 .footer h3 {
