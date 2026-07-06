@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YWAM Chiang Mai. A base for young adults and creatives in northern Thailand</title>
+<meta name="description" content="Discipleship, missions and creative training schools in Chiang Mai, Thailand. DTS, School of Frontier Missions, Create and Project Video. For young adults and makers from every nation.">
+<link rel="canonical" href="https://ywamchiangmai.example.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="YWAM Chiang Mai. Made to create. Called to more.">
+<meta property="og:description" content="Discipleship and creative missions training in Chiang Mai, Thailand. For young adults, makers and storytellers from every nation.">
+<meta property="og:url" content="https://ywamchiangmai.example.com/">
+<meta property="og:image" content="https://ywamchiangmai.example.com/images/og-ywam-chiangmai.webp">
+<meta property="og:site_name" content="YWAM Chiang Mai">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="YWAM Chiang Mai. Made to create. Called to more.">
+<meta name="twitter:description" content="Discipleship and creative missions training in Chiang Mai, Thailand.">
+<meta name="twitter:image" content="https://ywamchiangmai.example.com/images/og-ywam-chiangmai.webp">
+
+<!-- Fonts: local WOFF2 only -->
+<link rel="preload" href="fonts/Fraunces-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Outfit-Variable.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="styles/main.css">
+
+<!-- JSON-LD: Organization + FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://ywamchiangmai.example.com/#org",
+      "name": "YWAM Chiang Mai",
+      "url": "https://ywamchiangmai.example.com/",
+      "description": "A Youth With A Mission base in Chiang Mai, Thailand offering discipleship and creative missions training schools for young adults.",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Youth With A Mission",
+        "url": "https://ywam.org/"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chiang Mai",
+        "addressCountry": "TH"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ywamchiangmai.example.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I have to be a Christian to come?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our schools are built on following Jesus and everything here runs on that. You do not need to have it all figured out, and honest doubt is welcome. But you should want to explore faith seriously, because you will be swimming in it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each program has a fee covering housing, meals and training, plus outreach travel costs. Most students fundraise part or all of it. Exact numbers live on each program page, so there are no surprises when you arrive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What about visas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You enter Thailand on an education visa arranged with our team before you fly. We walk every student through the process step by step. It is more paperwork than drama."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need experience?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For DTS, none at all. For Create and Project Video, bring a working knowledge of your craft and a willingness to be stretched. The School of Frontier Missions asks for a completed DTS first."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- Cloudflare Web Analytics: paste token before launch -->
+<!-- <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "PASTE_TOKEN_HERE"}'></script> -->
+</head>
+
+<body data-phase="night">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav-logo" href="./">
+    <span class="nav-logo-mark" aria-hidden="true"></span>
+    YWAM <em>Chiang Mai</em>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#programs">Programs</a>
+    <a href="#mission">About</a>
+    <a href="#life">Life Here</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="nav-apply" href="#programs">Apply</a>
+  <button class="nav-burger" id="navBurger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" hidden>
+  <a href="#programs">Programs</a>
+  <a href="#mission">About</a>
+  <a href="#life">Life Here</a>
+  <a href="#contact">Contact</a>
+  <a class="nav-apply" href="#programs">Apply</a>
+</div>
+
+<main id="main">
+
+<!-- ===================== 1. HERO (night) ===================== -->
+<section class="hero" data-phase="night" id="top">
+  <canvas id="lanterns" aria-hidden="true"></canvas>
+  <div class="hero-vignette" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <p class="eyebrow hero-eyebrow">Chiang Mai, Thailand</p>
+    <h1 class="hero-heading" id="heroHeading">
+      <span class="w" style="--w:0">Made</span>
+      <span class="w" style="--w:1">to</span>
+      <span class="w" style="--w:2">create.</span>
+      <br>
+      <span class="w gold" style="--w:3">Called</span>
+      <span class="w gold" style="--w:4">to</span>
+      <span class="w gold" style="--w:5">more.</span>
+    </h1>
+    <p class="hero-sub">A base for young adults, makers and storytellers in the mountains of northern Thailand. Come for six months. Leave different.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-solid" href="#programs">Explore programs</a>
+      <a class="btn btn-ghost" href="#mission">What is YWAM?</a>
+    </div>
+  </div>
+
+  <a class="scroll-cue" href="#city" aria-label="Scroll to next section">
+    <span class="scroll-cue-line" aria-hidden="true"></span>
+    scroll
+  </a>
+</section>
+
+<!-- ===================== 2. THIS IS CHIANG MAI (dusk) ===================== -->
+<!-- EDIT HERE: city strip captions and photos -->
+<section class="city" data-phase="dusk" id="city">
+  <div class="section-head reveal">
+    <p class="eyebrow">The city</p>
+    <h2>First, the city.</h2>
+    <p class="lede">A 700 year old temple town ringed by mountains, full of night markets, studios, coffee and cheap street food. Digital nomads cross the world for Chiang Mai. You will live here.</p>
+  </div>
+
+  <div class="city-strip reveal" role="list">
+    <figure class="city-card" role="listitem" style="--i:0">
+      <img src="images/ywamchiangmai-ywam-chiangmai-training-mountain-banner.webp" alt="Doi Suthep mountain rising above Chiang Mai at dusk" width="1200" height="900" loading="lazy">
+      <figcaption>Doi Suthep on your horizon, every single day</figcaption>
+    </figure>
+    <figure class="city-card" role="listitem" style="--i:1">
+      <img src="images/ywamchiangmai-ywam-chiangmai-ywam-hub-market-view-2018.webp" alt="Lantern lit night market street in Chiang Mai" width="1200" height="900" loading="lazy">
+      <figcaption>Night markets where dinner costs two dollars</figcaption>
+    </figure>
+    <figure class="city-card" role="listitem" style="--i:2">
+      <img src="images/ywamchiangmai-ywam-chiangmai-create-international-workshop.webp" alt="Shared creative studio space with desks and camera gear" width="1200" height="900" loading="lazy">
+      <figcaption>A creative scene of studios, galleries and makers</figcaption>
+    </figure>
+    <figure class="city-card" role="listitem" style="--i:3">
+      <img src="images/ywamchiangmai-ywam-chiangmai-campus-photo.webp" alt="Barista pouring coffee in a Chiang Mai cafe" width="1200" height="900" loading="lazy">
+      <figcaption>Some of the best coffee grown anywhere in Asia</figcaption>
+    </figure>
+    <figure class="city-card" role="listitem" style="--i:4">
+      <img src="images/ywamchiangmai-ywam-chiangmai-thai-guy-viewpoint-ywam-cm-2018.webp" alt="Golden temple in the old city of Chiang Mai" width="1200" height="900" loading="lazy">
+      <figcaption>Three hundred temples inside the old city moat</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ===================== 3. MISSION REVEAL (dawn) ===================== -->
+<!-- EDIT HERE: mission copy and stats -->
+<section class="mission" data-phase="dawn" id="mission">
+  <svg class="horizon" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
+    <path id="horizonPath" d="M0,50 C200,50 300,14 600,30 C900,46 1000,10 1200,22" fill="none" stroke="currentColor" stroke-width="2"/>
+  </svg>
+
+  <div class="mission-inner reveal">
+    <p class="eyebrow">Who we are</p>
+    <h2>We're YWAM.<br>Youth With A Mission.</h2>
+    <p class="mission-lede">Since 1960, Youth With A Mission has been a global movement of Christians giving their twenties to two simple ideas: <strong>know God, and make Him known.</strong> Today that movement reaches more than 180 nations. Our base in Chiang Mai is one small, stubborn outpost of it.</p>
+    <p class="mission-honest">So yes, this is a faith thing. We follow Jesus, and we won't hide that behind creative language. If you come here it will shape everything: how we train, how we travel, what we make, and why.</p>
+
+    <dl class="mission-stats" role="list">
+      <div role="listitem"><dt>1960</dt><dd>the year it started with a few students and a map</dd></div>
+      <div role="listitem"><dt>180+</dt><dd>nations with YWAM teams working today</dd></div>
+      <div role="listitem"><dt>1</dt><dd>shared mission carried by every base on earth</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ===================== 4. WHO COMES HERE (day) ===================== -->
+<!-- EDIT HERE: identity mirror cards -->
+<section class="mirrors" data-phase="day" id="who">
+  <div class="section-head reveal">
+    <p class="eyebrow">Who comes here</p>
+    <h2>You might belong here if...</h2>
+  </div>
+
+  <div class="mirror-grid reveal">
+    <article class="mirror-card" style="--i:0">
+      <span class="mirror-num" aria-hidden="true">01</span>
+      <h3>You tell stories</h3>
+      <p>You shoot, you cut, you write, you frame. You're tired of pointing your lens at content. You want it pointed at something that matters.</p>
+    </article>
+    <article class="mirror-card" style="--i:1">
+      <span class="mirror-num" aria-hidden="true">02</span>
+      <h3>You're between chapters</h3>
+      <p>You're 19 and everyone keeps asking about your plan. You'd rather spend a year finding out who you are before you pick one.</p>
+    </article>
+    <article class="mirror-card" style="--i:2">
+      <span class="mirror-num" aria-hidden="true">03</span>
+      <h3>You make things</h3>
+      <p>Design, music, paint, code. You're good at your craft, and you carry a quiet suspicion it was given to you for something bigger than a portfolio.</p>
+    </article>
+    <article class="mirror-card" style="--i:3">
+      <span class="mirror-num" aria-hidden="true">04</span>
+      <h3>You just know there's more</h3>
+      <p>No creative label, no grand plan. Just a nagging sense that life is bigger than the feed. That counts. That's how most of us got here.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ===================== 5. PROGRAMS (day) ===================== -->
+<!--
+  EDIT HERE: program cards.
+  To add a program: copy one <article class="program-card"> block,
+  change data-accent to gold | teal | rose | indigo, edit the text. Done.
+-->
+<section class="programs" data-phase="day" id="programs">
+  <div class="section-head reveal">
+    <p class="eyebrow">The programs</p>
+    <h2>Four doors. One direction.</h2>
+    <p class="lede">Every school lives at the base, runs in English, and ends with your feet somewhere new in Asia.</p>
+  </div>
+
+  <div class="program-grid reveal">
+
+    <article class="program-card" data-accent="gold" style="--i:0">
+      <img class="program-card__image" src="images/ywamchiangmai-ywam-chiangmai-dts-students-sharing-a-meal.webp" alt="DTS students sharing a meal together" width="600" height="400" loading="lazy">
+      <p class="program-label">The front door</p>
+      <h3>DTS</h3>
+      <p class="program-tag">Discipleship Training School</p>
+      <p class="program-copy">Five months of learning who God is and who you are, then taking it on the road across Asia. Where everyone starts.</p>
+      <dl class="program-meta">
+        <div><dt>Length</dt><dd>5 months</dd></div>
+        <div><dt>Next intake</dt><dd>September 2026</dd></div>
+      </dl>
+      <a class="program-link" href="#" aria-label="Learn more about DTS">Learn more <span aria-hidden="true">&rarr;</span></a>
+    </article>
+
+    <article class="program-card" data-accent="rose" style="--i:1">
+      <img class="program-card__image" src="images/ywamchiangmai-ywam-chiangmai-create-international-workshop.webp" alt="Create school workshop with artists and creatives" width="600" height="400" loading="lazy">
+      <p class="program-label">For the makers</p>
+      <h3>Create</h3>
+      <p class="program-tag">School of Arts &amp; Design</p>
+      <p class="program-copy">A school for artists, designers and musicians. Make honest work, in community, and learn what your craft is actually for.</p>
+      <dl class="program-meta">
+        <div><dt>Length</dt><dd>3 months</dd></div>
+        <div><dt>Next intake</dt><dd>January 2027</dd></div>
+      </dl>
+      <a class="program-link" href="#" aria-label="Learn more about Create">Learn more <span aria-hidden="true">&rarr;</span></a>
+    </article>
+
+    <article class="program-card" data-accent="indigo" style="--i:2">
+      <img class="program-card__image" src="images/ywamchiangmai-ywam-chiangmai-project-video-asia-production-photo-1.webp" alt="Project Video documentary film shoot on location" width="600" height="400" loading="lazy">
+      <p class="program-label">For the storytellers</p>
+      <h3>Project Video</h3>
+      <p class="program-tag">Documentary Film School</p>
+      <p class="program-copy">Documentary filmmaking in the field. Real people, real stakes, cameras in hand across Southeast Asia.</p>
+      <dl class="program-meta">
+        <div><dt>Length</dt><dd>3 months</dd></div>
+        <div><dt>Next intake</dt><dd>April 2027</dd></div>
+      </dl>
+      <a class="program-link" href="#" aria-label="Learn more about Project Video">Learn more <span aria-hidden="true">&rarr;</span></a>
+    </article>
+
+    <article class="program-card" data-accent="teal" style="--i:3">
+      <img class="program-card__image" src="images/ywamchiangmai-ywam-chiangmai-shan-outreach-center-photo-1.webp" alt="Frontier missions outreach at Shan Outreach Center" width="600" height="400" loading="lazy">
+      <p class="program-label">For the pioneers</p>
+      <h3>SOFM</h3>
+      <p class="program-tag">School of Frontier Missions</p>
+      <p class="program-copy">For the ones ready to go where the map runs out. Training for life and work among peoples who have never once heard the name of Jesus.</p>
+      <dl class="program-meta">
+        <div><dt>Length</dt><dd>6 months</dd></div>
+        <div><dt>Next intake</dt><dd>September 2026</dd></div>
+      </dl>
+      <a class="program-link" href="#" aria-label="Learn more about the School of Frontier Missions">Learn more <span aria-hidden="true">&rarr;</span></a>
+    </article>
+
+  </div>
+</section>
+
+<!-- ===================== 6. LIFE AT THE BASE (day) ===================== -->
+<!-- EDIT HERE: photos and quotes -->
+<section class="life" data-phase="day" id="life">
+  <div class="section-head reveal">
+    <p class="eyebrow">Life here</p>
+    <h2>Ordinary days, strange and good.</h2>
+  </div>
+
+  <div class="life-grid reveal">
+    <figure class="life-photo" style="--i:0">
+      <img src="images/ywamchiangmai-ywam-chiangmai-dts-students-sharing-a-meal.webp" alt="Students sharing dinner around a long table at the base" width="1200" height="900" loading="lazy">
+    </figure>
+    <figure class="life-photo" style="--i:1">
+      <img src="images/ywamchiangmai-ywam-chiangmai-about-ywam-chiangmai-group-photo.webp" alt="Rooftop worship night with string lights" width="1200" height="900" loading="lazy">
+    </figure>
+    <figure class="life-photo" style="--i:2">
+      <img src="images/ywamchiangmai-ywam-chiangmai-project-video-asia-production-photo-2.webp" alt="Students filming a documentary interview" width="1200" height="900" loading="lazy">
+    </figure>
+    <figure class="life-photo" style="--i:3">
+      <img src="images/ywamchiangmai-ywam-chiangmai-shan-outreach-center-photo-2.webp" alt="Outreach team walking into a hill village" width="1200" height="900" loading="lazy">
+    </figure>
+  </div>
+
+  <div class="quotes reveal">
+    <blockquote class="quote" style="--i:0">
+      <p>"I came for the filmmaking. I stayed because for the first time my work and my faith weren't living in separate rooms."</p>
+      <cite>Nadia, 24, Brazil</cite>
+    </blockquote>
+    <blockquote class="quote" style="--i:1">
+      <p>"Sunday worship on the rooftop, geckos on the wall, mangoes from the market. I've never felt further from home, or more at home."</p>
+      <cite>Jonas, 20, Germany</cite>
+    </blockquote>
+    <blockquote class="quote" style="--i:2">
+      <p>"I wasn't even sure I believed any of it when I landed. Nobody panicked. They just let me ask everything."</p>
+      <cite>Priya, 26, United Kingdom</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ===================== 7. IS THIS FOR ME (day) ===================== -->
+<!-- EDIT HERE: FAQ answers. Keep in sync with FAQPage JSON-LD above. -->
+<section class="faq" data-phase="day" id="faq">
+  <div class="section-head reveal">
+    <p class="eyebrow">Straight answers</p>
+    <h2>Is this for me?</h2>
+  </div>
+
+  <div class="faq-list reveal">
+    <details class="faq-item" style="--i:0">
+      <summary>Do I have to be a Christian to come?</summary>
+      <p>Our schools are built on following Jesus and everything here runs on that. You don't need to have it all figured out, and honest doubt is welcome. But you should want to explore faith seriously, because you'll be swimming in it.</p>
+    </details>
+    <details class="faq-item" style="--i:1">
+      <summary>What does it cost?</summary>
+      <p>Each program has a fee covering housing, meals and training, plus outreach travel costs. Most students fundraise part or all of it. Exact numbers live on each program page, so there are no surprises when you arrive.</p>
+    </details>
+    <details class="faq-item" style="--i:2">
+      <summary>What about visas?</summary>
+      <p>You enter Thailand on an education visa arranged with our team before you fly. We walk every student through the process step by step. It's more paperwork than drama.</p>
+    </details>
+    <details class="faq-item" style="--i:3">
+      <summary>Do I need experience?</summary>
+      <p>For DTS, none at all. For Create and Project Video, bring a working knowledge of your craft and a willingness to be stretched. The School of Frontier Missions asks for a completed DTS first.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ===================== 7b. MINISTRIES (day) ===================== -->
+<section class="city" data-phase="day" id="ministries">
+  <div class="section-head reveal">
+    <p class="eyebrow">Beyond the classroom</p>
+    <h2>Eight ministries, one base.</h2>
+    <p class="lede">Ongoing work students plug into alongside their school, all year round.</p>
+  </div>
+
+  <div class="ministries-grid reveal" role="list">
+    <figure class="city-card" role="listitem" style="--i:0">
+      <img src="images/ywamchiangmai-ywam-chiangmai-community-center-pim-teaching-kids.webp" alt="Teach Our Kids: staff teaching children" width="1200" height="900" loading="lazy">
+      <figcaption>Teach Our Kids</figcaption>
+    </figure>
+    <figure class="city-card" role="listitem" style="--i:1">
+      <img src="images/ywamchiangmai-ywam-chiangmai-shan-outreach-center-photo-1.webp" alt="Shan Outreach Center" width="1200" height="900" loading="lazy">
+      <figcaption>Shan Outreach Center</figcaption>
+    </figure>
+    <figure class="city-card" role="listitem" style="--i:2">
+      <img src="images/ywamchiangmai-ywam-chiangmai-spiritual-direction-cover-image.webp" alt="Spiritual Direction ministry" width="1200" height="900" loading="lazy">
+      <figcaption>Spiritual Direction</figcaption>
+    </figure>
+    <figure class="city-card" role="listitem" style="--i:3">
+      <img src="images/ywamchiangmai-ywam-chiangmai-home-of-joy-photo-1.webp" alt="Home of Joy" width="1200" height="900" loading="lazy">
+      <figcaption>Home of Joy</figcaption>
+    </figure>
+    <figure class="city-card" role="listitem" style="--i:4">
+      <img src="images/ywamchiangmai-ywam-chiangmai-create-international-workshop.webp" alt="Create International ministry" width="1200" height="900" loading="lazy">
+      <figcaption>Create International</figcaption>
+    </figure>
+    <figure class="city-card" role="listitem" style="--i:5">
+      <img src="images/ywamchiangmai-ywam-chiangmai-community-center-kids-studying-bible.webp" alt="Community Center" width="1200" height="900" loading="lazy">
+      <figcaption>Community Center</figcaption>
+    </figure>
+    <figure class="city-card" role="listitem" style="--i:6">
+      <img src="images/ywamchiangmai-ywam-chiangmai-belt-bible-education-leadership-training.webp" alt="Bible Education Leadership Training" width="1200" height="900" loading="lazy">
+      <figcaption>Bible Education &amp; Leadership Training</figcaption>
+    </figure>
+    <figure class="city-card" role="listitem" style="--i:7">
+      <img src="images/ywamchiangmai-ywam-chiangmai-project-video-asia-production-photo-1.webp" alt="Project Video Asia" width="1200" height="900" loading="lazy">
+      <figcaption>Project Video Asia</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ===================== 8. FINAL CTA (dusk) ===================== -->
+<section class="cta" data-phase="dusk" id="contact">
+  <div class="cta-inner reveal">
+    <p class="eyebrow">One more thing</p>
+    <h2>Still reading?<br><span class="gold">That's usually a sign.</span></h2>
+    <p class="lede">The lanterns go up over Chiang Mai once a year. The door here is open all of it.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-solid" href="#programs">Explore programs</a>
+      <a class="btn btn-ghost" href="mailto:hello@ywamchiangmai.example.com">Talk to a real human</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer" data-phase="dusk">
+  <div class="footer-grid">
+    <div>
+      <p class="footer-logo">YWAM <em>Chiang Mai</em></p>
+      <p class="footer-line">Part of Youth With A Mission, a global movement in 180+ nations since 1960.</p>
+    </div>
+    <div>
+      <h3>Visit</h3>
+      <p class="footer-line">123 Placeholder Road<br>Chiang Mai 50200, Thailand</p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p class="footer-line">
+        <a href="mailto:hello@ywamchiangmai.example.com">hello@ywamchiangmai.example.com</a><br>
+        <a href="#">Instagram</a> &middot; <a href="#">YouTube</a>
+      </p>
+    </div>
+    <div>
+      <h3>Programs</h3>
+      <p class="footer-line">
+        <a href="#programs">DTS</a><br>
+        <a href="#programs">Create</a><br>
+        <a href="#programs">Project Video</a><br>
+        <a href="#programs">SOFM</a>
+      </p>
+    </div>
+  </div>
+  <p class="footer-legal">&copy; 2026 YWAM Chiang Mai. All rights reserved.</p>
+</footer>
+
+<script src="scripts/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+# Dependencies / package managers
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+.cache/
+.parcel-cache/
+.turbo/
+out/
+
+# Cloudflare
+.wrangler/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs / temp
+*.log
+npm-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Markdown docs/notes, except checked-in project instructions
+*.md
+/.md/
+!CLAUDE.md
